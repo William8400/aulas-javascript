@@ -35,6 +35,24 @@ console.log(`Eu gosto de ver ${coisasquegosto[4]}`);
 
 console.log(`Eu gosto de ${coisasquegosto[6]} no curso de Desenvolvedor Full Stack que é localizado no Senac Penha`);
 
+// Array como MATRIZ DE 2 DIMENSÕES 
+
+const tecnologias = [
+    ["HTML" , "CSS" , "JAVASCRIPT"],
+    ["Figma" , "Photoshop"],
+    ["PHP" , "Node.js" , "SQL" , "Express"]
+];
+
+// console.log(tecnologias);
+
+console.log(tecnologias[0][2]); // JAVASCRIPT
+console.log(tecnologias[1][0]); // Figma 
+console.log(tecnologias[2][3]); // Express
+
+
+
+
+
 
 
 
