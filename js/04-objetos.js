@@ -3,7 +3,7 @@
 // Exemplo 1: objeto com dados de uma pessoa 
 
 const pessoa = {
-    nome: "William Hidalgo Donato" , 
+    nome: "William Hidalgo Donato", 
     idade: 21,
     cidade: "São Paulo",
     estado: "SP"
@@ -11,3 +11,6 @@ const pessoa = {
 
 console.log(pessoa);
 
+
+// acessamos as propriedades usando nomeDoObjeto.nomedaPropriedade
+console.log(`O ${pessoa.nome} tem ${pessoa.idade} anos`);
