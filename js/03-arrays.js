@@ -33,7 +33,7 @@ console.log(`Eu gosto de ${coisasquegosto[2-1]} quando tenho tempo livre`);
 
 console.log(`Eu gosto de ver ${coisasquegosto[4]}`);
 
-console.log(` Eu gosto de ${coisasquegosto[6]} no curso de Desenvolvedor Full Stack que é localizado no Senac Penha`);
+console.log(`Eu gosto de ${coisasquegosto[6]} no curso de Desenvolvedor Full Stack que é localizado no Senac Penha`);
 
 
 
