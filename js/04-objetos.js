@@ -79,21 +79,24 @@ console.log("\natividade\n ");
 
 const aluno = {
 
-    nome: "William",
-    Data: "24/1/2004",
+    nome: "fulano Presley",
+    Data: "28/9/1990",
     telefone: [
-        "(11)99769-7132",
+        "(11)99790-2432",
         "(11)99896-3245"
     ],
     endereco: {
-        rua: "Rua Rosário Do Sul",
-        numero: "313",
-        bairro: "Jardim Maringá" 
+        rua: "Rua dos jegues",
+        numero: "415",
+        bairro: "Jardim lindo" 
     }  
 };
 
 console.log(aluno);
 console.log(`Meu nome é ${aluno.nome}, meu telefone é ${aluno.telefone[0]} e o bairro que eu moro é ${aluno.endereco.bairro}`);
+
+console.log("Meu nome é " +aluno.nome+", meu telefone é" +aluno.telefone [0]+ ", e o bairro que eu moro é " +aluno.endereco.bairro );
+
 
 
 
