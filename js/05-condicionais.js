@@ -32,3 +32,28 @@ if (idade < 18) {
     console.log("Você é maior de idade!");
 
 }
+
+/* 1. Crie duas variáveis conforme a seguir:
+ 
+- Nota 1 (contendo um valor de 0 a 10)
+- Nota 2 (contendo outro valor de 0 a 10)
+
+2. Crie uma variável chamada "Média" que receberá o valor CALCULADO da média das duas notas informadas. 
+DICA: você deve SOMAR as duas notas e DEPOIS dividir por 2.
+ 
+3. Programe uma condicional que verifique o valor da média calculada. Se a média for maior/igual a 7, mostre "aprovado". 
+Caso contrário, mostre "reprovado */
+
+let nota1 = 8;
+let nota2 = 6;
+let media = (nota1+nota2)/2 
+
+if(media >= 7){
+    
+    console.log("aprovado");
+} else {
+    console.log("reprovado");
+}
+
+
+
