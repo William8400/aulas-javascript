@@ -1,5 +1,9 @@
 'use strict';
 
+// (parênteteses) --> operações , funcções 
+// [colchetes] --> array/vetor
+// {chaves}	-> objeto, funções, condicionais, loops, template string
+
 // Exemplo 1: objeto com dados de uma pessoa 
 console.log("Exemplo 1\n ");
 const pessoa = {
@@ -90,6 +94,8 @@ const aluno = {
 
 console.log(aluno);
 console.log(`Meu nome é ${aluno.nome}, meu telefone é ${aluno.telefone[0]} e o bairro que eu moro é ${aluno.endereco.bairro}`);
+
+
 
 
 
