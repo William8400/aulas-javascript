@@ -46,14 +46,24 @@ Caso contrário, mostre "reprovado */
 
 let nota1 = 8;
 let nota2 = 6;
-let media = (nota1+nota2)/2 
+let media = (nota1 + nota2) / 2
 
-if(media >= 7){
-    
+console.log("Média:" + media);
+
+
+if (media >= 7) {
+
     console.log("aprovado");
 } else {
     console.log("reprovado");
 }
+
+// Versão 2: lógica inversa 
+/*if (media < 7) {
+    console.log("reprovado")
+} else {
+    console.log("aprovado");
+}*/
 
 
 
