@@ -19,7 +19,7 @@ if (numero >= 10) {
 console.log("\nExemplo 2");
 
 let aluno = "James white Jason";
-let idade = 35;
+let idade = 18;
 
 /* Lógica: verificar se o aluno é maior ou menor de idade.*/
 
@@ -87,6 +87,15 @@ if (media > 9) {
     
 } else {console.log('PÉSSIMO');
 }
+
+// Condicional COMPOSTA com operador TERNÁRIO   ?:   
+console.log('\nExemplo 4');
+
+let situacao = idade >=18 ? "Maior" : "Menor"
+
+console.log(situacao);
+
+
 
 
 
