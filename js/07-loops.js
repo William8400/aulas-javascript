@@ -86,7 +86,7 @@ for (const cliente of clientes) {
 }
 
 for (let b = 0; b < clientes.length; b++) {
-    console.log("- Cliente:" + clientes[2].nome + ",id:" + clientes[2].indentificador);
+    console.log("- Cliente:" + clientes[b].nome + ",id:" + clientes[b].indentificador);
 }
 
 /* Cada objeto deverá ter uma propriedade "identificador" (com valores 1, 2 e 3) e uma propriedade "nome" (com os nomes dos clientes: "Dio", "Ozzy" e "Ian").
