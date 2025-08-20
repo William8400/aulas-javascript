@@ -31,4 +31,11 @@ for( let k = 10; k >= 1; k--){
     console.log(" K vale " +k);
 }
 
+console.log("\nExemplo 4: loop e array");
+
+const frutas = ["Banana", "maçã", "Pêra", "kiwi", "Abacate"];
+// usando loop "for" tradicional
+for( let f = 0; f < frutas.length; f++ ){
+    console.log( frutas[f]);
+}
 
