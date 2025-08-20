@@ -39,3 +39,13 @@ for( let f = 0; f < frutas.length; f++ ){
     console.log( frutas[f]);
 }
 
+console.log("\n------\n");
+
+
+// Usando loop for/of "(exclusivo do JS)"
+for(const fruta of frutas ){
+    console.log(fruta);
+}
+
+
+
