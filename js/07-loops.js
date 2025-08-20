@@ -5,6 +5,15 @@ São  comandos que, baseados em alguma condição lógica, são programados para
 
 Comandos mais tradicionais: while (ENQUANTO) e for (PARA)
 
-Normalmente, os loops são controlados através de uma variável contadora.
+Normalmente, os loops são controlados através de uma variável contadora.*/
 
-*/
+
+console.log('Exemplo 1: WHILE (enquanto)');
+
+let contador = 1;
+while (contador <= 5) {
+
+    console.log("Valor do contador:" +contador);
+    contador++; // incremento 
+    
+}
