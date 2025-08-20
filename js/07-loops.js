@@ -58,9 +58,47 @@ const pessoa = {
 
 // Usando loop for/in para objetos (exclusivo par JS)
 
-for(const prop in pessoa){
-    console.log(pessoa[prop]);
+for(const dados in pessoa){
+    console.log(pessoa[dados]);
 }
+
+// 1. Faça um array chamado "clientes" contendo 3 objetos.
+
+const clientes = [
+    {
+       indentificador: 1,
+       nome: "Dio"
+    },
+
+    {
+        indentificador: 2,
+        nome: "Ozzy"
+    },
+
+    {
+        indentificador: 3,
+        nome: "Ian"
+    }
+]
+
+for(const cliente of clientes){
+    console.log("- Cliente:" +cliente.nome+ ", id:" +cliente.indentificador);
+}
+
+for(let b = 0; b < clientes.length; b++){
+    console.log("- Cliente:" +clientes[2].nome+ ",id:" +clientes[2].indentificador);
+}
+ 
+/* Cada objeto deverá ter uma propriedade "identificador" (com valores 1, 2 e 3) e uma propriedade "nome" (com os nomes dos clientes: "Dio", "Ozzy" e "Ian").
+ 
+2. Faça um loop (qualquer um dos que vimos) e mostre no console os dados de cada cliente conforme a seguir:
+ 
+- Cliente: Dio, id: 1
+- Cliente: Ozzy, id: 2
+- Cliente: Ian, id: 3 */ 
+
+
+
 
 
 
