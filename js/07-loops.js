@@ -5,15 +5,23 @@ São  comandos que, baseados em alguma condição lógica, são programados para
 
 Comandos mais tradicionais: while (ENQUANTO) e for (PARA)
 
-Normalmente, os loops são controlados através de uma variável contadora.*/
+Normalmente, os loops são controlados através de uma variável contadora. Está variável é comunmente chamada de "i" , "j" , "k" ou qualquer outra letra se necessário.*/
 
 
 console.log('Exemplo 1: WHILE (enquanto)');
 
-let contador = 1;
-while (contador <= 5) {
+let i = 1;
+while (i <= 5) {
 
-    console.log("Valor do contador:" +contador);
-    contador++; // incremento 
-    
+    console.log("Valor do i:" +i);
+    i++; // incremento 
+    // i = i + 1; 
 }
+
+console.log("\nExemplo 2: FOR (PARA)");
+
+// for(inicialização da variável; condição; atualização)
+for( let j = 1; j <= 10; j++  ){
+    console.log(" J vale "+j);
+}
+
