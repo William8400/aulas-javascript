@@ -51,3 +51,14 @@ Quando uma função precisa de valores/dados para algum tipo de processamento, e
 Geralmente, ao terminar o processamento dos dado, a função 'retorna' para fora um  resultado.
 
 */
+console.log("\nExemplo 4: Função com parâmetro opcional");
+
+function saudacao( nome = " Visitante" ){
+    console.log('Olá,' +nome);
+    
+}
+
+saudacao(" William ");
+saudacao(" Rogério ");
+saudacao(" Augusto ");
+saudacao(); // nesse caso, é usado "Visitante" como valor
