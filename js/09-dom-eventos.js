@@ -44,11 +44,10 @@ atividade.addEventListener("mouseover", function(){
     atividade.textContent = "Praticando Eventos!"
 
     atividade.classList.add("atividade")
-});
+}); 
 
 referencias.addEventListener("click", function (){
     atividade.textContent = "Eventos"
-
     atividade.classList = 'Eventos'
 });
 
