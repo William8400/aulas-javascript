@@ -11,4 +11,10 @@ console.log(exemplo01);
 console.log(mensagem01);
 console.log(pagina);
 
+/* Para Selecionar vários elemento, use querySelectorAll.
+O Resultado é uma espécie de array de elementos (Nodelist).*/
+const paragrafo = document.querySelectorAll("p")
+console.log(paragrafo);
+
+
 
