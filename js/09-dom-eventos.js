@@ -55,12 +55,25 @@ referencias.addEventListener("click", function (){
 // Exemplo 3: modo noturno 
 
 const botaoModoNoturno = document.querySelector("#noturno")
+let botaoNoturno = true
 
 botaoModoNoturno.addEventListener("click", function () {
     
     pagina.classList.toggle("modo-noturno");/* Usamos o toggle para alternar entre adicionar a classe OU remover a classe, de acordo com cada clique no botão */
+    if (botaoNoturno) {
 
+        botaoModoNoturno.textContent = "Desativar"; 
+        botaoNoturno=false;
+        
+    } else {
+        botaoModoNoturno.textContent = "Ativar";
+        botaoNoturno=true;
+    }
 });
+
+
+
+
 
 // desafios !
 /* 
