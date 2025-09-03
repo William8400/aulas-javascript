@@ -89,4 +89,16 @@ botaoModoNoturno.addEventListener("click", function () {
 
 const janelaModal = document.querySelector("#janelinha")
 
+document.addEventListener("mouseout", function (event) {
+    if (event.clientY < 0) {
+        janelaModal.showModal();
+    }
+});
+
+const botaoFechar = janelaModal.querySelector("button");
+
+botaoFechar.addEventListener("click", function () {
+    janelaModal.close();
+});
+
 
