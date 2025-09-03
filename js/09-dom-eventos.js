@@ -60,7 +60,7 @@ let botaoNoturno = true
 botaoModoNoturno.addEventListener("click", function () {
    
     // Transition via JavaScript
-    pagina.style.transition = "2s"
+    pagina.style.transition = "1s"
     
     pagina.classList.toggle("modo-noturno");/* Usamos o toggle para alternar entre adicionar a classe OU remover a classe, de acordo com cada clique no botão */
     if (botaoNoturno) {
@@ -73,10 +73,6 @@ botaoModoNoturno.addEventListener("click", function () {
         botaoNoturno=true;
     }
 });
-
-
-
-
 
 // desafios !
 /* 
