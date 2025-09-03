@@ -85,4 +85,8 @@ botaoModoNoturno.addEventListener("click", function () {
 
 */
 
+/* Exemplo 02  */
+
+const janelaModal = document.querySelector("#janelinha")
+
 
